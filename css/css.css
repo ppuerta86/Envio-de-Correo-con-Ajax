@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/*Codigo formulario */
+
+.form-control {
+   border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 6px 0px;
+    border-bottom-color: #ff9c2b;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.form-control:focus {
+   -webkit-box-shadow: 0px 0px 23px 3px rgba(255, 145, 50, 1);
+-moz-box-shadow:    0px 0px 23px 3px rgba(255, 145, 50, 1);
+box-shadow:         0px 0px 23px 3px rgba(255, 145, 50, 1);
+}
+/*fin codigo formulario*/
+
